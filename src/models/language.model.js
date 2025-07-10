@@ -19,7 +19,7 @@ const Language = sequelize.define(
             allowNull: false,
 
          }, release_year:{
-            type: DataTypes.STRING,
+            type: DataTypes.INTEGER,
             allowNull: false,   
         }
         }
